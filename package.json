@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "description": "Decentralized Ethereum Token Exchange",
   "author": "rashdan.ibrahim@gmail.com",
-  "homepage": ".",  
+  "private": true,
+  "homepage": ".",
+  "engines": {
+    "node": "8.11.1"
+  },
   "dependencies": {
     "apexcharts": "3.6.3",
     "babel-polyfill": "6.26.0",
